@@ -15,6 +15,30 @@ $("#tab-1").click(function(){
     $(".attempt-4-6").removeClass("attempt-4-6-show");
 });
 
+//open new window - progrees part
+
+function openWin_P1() {
+  window.open("https://github.com/new-Kong/TinDog.git");
+}
+
+function openWin_P3() {
+  window.open("https://github.com/new-Kong/myTunes.git");
+}
+
+
+function openWin_P4() {
+  window.open("https://github.com/new-Kong/Nexflix-Clone.git");
+}
+
+function openWin_P5() {
+  window.open("https://github.com/new-Kong/Food-Monster.git");
+}
+
+function openWin_P6() {
+  window.open("https://github.com/new-Kong/Personal-Website.git");
+}
+
+
 // magnific pop-up previous art
 
 $(".parent-container").magnificPopup({
@@ -28,7 +52,7 @@ $(".parent-container").magnificPopup({
 
 // magnific pop-up in progress
 
-$(".progress").magnificPopup({
+$(".progress-right").magnificPopup({
   delegate:"a",
   type:"image",
 });
