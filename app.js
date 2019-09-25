@@ -34,10 +34,6 @@ function openWin_P5() {
   window.open("https://new-kong.github.io/Food-Monster/");
 }
 
-function openWin_P6() {
-  window.open("https://github.com/new-Kong/Personal-Website.git");
-}
-
 //open new window - Linkedin
 function openWin_L1() {
   window.open("https://my.linkedin.com/in/wai-hoo-kong-14a119174?trk=profile-badge");
