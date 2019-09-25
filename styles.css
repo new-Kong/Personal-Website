@@ -1,7 +1,4 @@
-*{
-  padding:0;
-  margin:0;
-}
+
 
 body{
   font-family:'Manjari', sans-serif;
@@ -81,7 +78,8 @@ img{
 }
 
 .nav-links{
-  padding-top: 50%;
+  height:auto;
+  padding: 16vh 0;
   list-style: none;
 }
 
@@ -91,7 +89,7 @@ img{
   text-transform: capitalize;
   color:#fff;
   font-size: 1.5rem;
-  padding:2rem 2.7rem;
+  padding:0.8rem 2.7rem;
   transition: all 0.5s ease-out;
 }
 
@@ -104,7 +102,7 @@ img{
 
 .nav-logo:hover{
   transition: all 0.5s ease-out;
-  letter-spacing: 22.5px;
+  letter-spacing: 23px;
   background:#851e3e;
 }
 
@@ -122,18 +120,17 @@ img{
 
 .container-header{
   background: #851e3e;
-  height:10vh;
+  height:auto;
 }
 
 .container-header .row{
-  padding:0 2rem;
-  margin-top:1.2rem;
+  margin:1rem 0;
 }
 
 .container-header .row .col{
   display:flex;
-  justify-content: space-between;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   flex-wrap: nowrap;
 }
 
@@ -161,18 +158,18 @@ img{
   width:100%;
 }
 
-.container-profile-picture::before{
+/* .container-profile-picture::before{
   content:"";
   position:absolute;
   z-index:1;
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);
-  width:70%;
-  height:50%;
+  width:auto;
+  height:50vh;
   background:rgba(0,0,0,0.4);
   box-shadow: inset 10px 10px 100px #000000;
-}
+} */
 
 .profile-hello{
   position:absolute;
@@ -308,7 +305,7 @@ img{
   padding:2rem 0;
   margin-bottom: 2rem;
   background-color: #851e3e;
-  height:80vh;
+  height:auto;
 }
 
 .progress .progress-left-bottomContent .tutorials-link{
@@ -323,7 +320,7 @@ img{
     padding:2rem 0;
     margin-bottom: 2rem;
     background-color: #851e3e;
-    height:160vh;
+    height:auto;
   }
 
 
@@ -388,6 +385,7 @@ img{
   font-size: 1.1rem;
   width:100%;
   color:#fff;
+  margin-bottom: 1.5rem
 }
 
 .unlock-btn:hover{
@@ -398,88 +396,6 @@ img{
   text-decoration: none !important;
 }
 
-@media (max-width:1360px) {
-  .progress-1, .progress-3, .progress-5{
-   height:105vh;
- }
-
- .progress-2, .progress-4, .progress-6{
-   height:85vh;
- }
-}
-
-
-@media(max-width:800px) {
-   .progress-1, .progress-3, .progress-5{
-    height:165vh;
-  }
-
-  .progress-2{
-    height:150vh;
-  }
-
-  .progress-left{
-    margin-left: 0.5rem;
-  }
-  .progress-right{
-    margin-left: 10%;
-  }
-}
-
-
-@media(max-width:505px) {
-   .progress-1, .progress-3, .progress-5{
-    height:205vh;
-  }
-
-  .progress-4{
-    height:165vh;
-  }
-
-  .progress-2{
-    height:185vh;
-  }
-
-  .progress-6{
-    height:175vh;
-  }
-
-  .progress-left{
-    margin-left: 0.5rem;
-  }
-  .progress-right{
-    margin-left: 10%;
-  }
-}
-
-@media (max-width:325px){
-  .progress-1, .progress-3{
-   height:248vh;
- }
-
-.progress-5{
-  height:238vh;
-}
-
- .progress-2{
-   height:225vh;
- }
-
- .progress-4{
-   height:190vh;
- }
-
- .progress-6{
-   height:210vh;
- }
-
- .progress-left{
-   margin-left: 0.5rem;
- }
- .progress-right{
-   margin-left: 10%;
- }
-}
 /* end of progress
 
 /* Acheivement */
@@ -491,28 +407,32 @@ img{
   text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .status-1{
   display:grid;
-  grid-gap:4%;
+  grid-gap:0%;
   grid-template-columns: repeat(2,1fr);
   padding:2rem 0;
 }
 
-@media(max-width:1000px) {
+@media(max-width:800px) {
   .status-1{
     display:grid;
-    grid-gap:4%;
+    grid-gap:0% ;
     grid-template-columns: repeat(1,2fr);
     padding:2rem 0;
   }
 
-  .curtin{
-    border-radius: 50px;
-    height:45vh !important;
-    width:67vw !important;
-    box-shadow: 2px 2px 10px #000;
+
+  .logo{
+    width:200px !important;
+    height:200px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
   }
 
   .status-1-right h3{
@@ -526,16 +446,15 @@ img{
 
 }
 
-.curtin{
+.logo{
   border-radius: 50px;
-  height:400px;
-  width:27vw;
+  height:300px;
+  width:300px;
   box-shadow: 2px 2px 10px #000;
-  margin-top: 2rem;
+  display: block;
 }
 
 .status-1-right h3{
-  margin-top:2rem;
   font-size: 1.8rem;
 }
 
