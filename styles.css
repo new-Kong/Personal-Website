@@ -429,11 +429,19 @@ img{
 
 @media(max-width:505px) {
    .progress-1, .progress-3, .progress-5{
-    height:172vh;
+    height:205vh;
+  }
+
+  .progress-4{
+    height:165vh;
   }
 
   .progress-2{
-    height:155vh;
+    height:185vh;
+  }
+
+  .progress-6{
+    height:175vh;
   }
 
   .progress-left{
@@ -444,13 +452,25 @@ img{
   }
 }
 
-@media (max-width:320px){
-  .progress-1, .progress-3, .progress-5{
-   height:222vh;
+@media (max-width:325px){
+  .progress-1, .progress-3{
+   height:248vh;
  }
 
- .progress-2, .progress-4, .progress-6{
-   height:202vh;
+.progress-5{
+  height:238vh;
+}
+
+ .progress-2{
+   height:225vh;
+ }
+
+ .progress-4{
+   height:190vh;
+ }
+
+ .progress-6{
+   height:210vh;
  }
 
  .progress-left{
