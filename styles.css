@@ -122,7 +122,7 @@ img{
 
 .container-header{
   background: #851e3e;
-  /* height:10vh; */
+  height:10vh;
 }
 
 .container-header .row{
@@ -139,6 +139,7 @@ img{
 
 .header-details i{
   margin:0 0.5rem;
+  cursor: pointer;
 }
 
 .header-details i:hover{
@@ -146,20 +147,16 @@ img{
   transition: all 0.5s ease-out;
 }
 
-.container-header .row .col h2{
-  letter-spacing:0.1rem;
-
-}
 
 /* end of header */
 
 /* profile-picture */
 
 .container-profile-picture{
-  background: cover;
+  background-size: cover;
   background-attachment: fixed;
   position:relative;
-  background-image: url("images/adult-blur-businessman.jpg");
+  background-image: url("images/Kong_profile_pic.jpg");
   height:95vh;
   width:100%;
 }
@@ -307,7 +304,7 @@ img{
   color:#051e3e !important;
 }
 
-@media(max-width:1440px) {
+@media(max-width:800px) {
   .progress{
     display:grid;
     grid-gap:4%;
@@ -318,7 +315,12 @@ img{
     height:160vh;
   }
 
+  .progress-left{
+    margin-left: 1rem;
+  }
+
   .progress img{
+    margin-left:3%!important;
     height:55vh;
   }
 }
@@ -384,7 +386,16 @@ img{
   text-decoration: none !important;
 }
 
-/* end of progress */
+@media(max-width:505px) {
+  .progress{
+    height:175vh;
+  }
+
+  .progress-left{
+    margin-left: 1rem;
+  }
+}
+/* end of progress
 
 /* Acheivement */
 .container-acheivement{
@@ -429,6 +440,12 @@ img{
     margin-bottom: 3rem;
   }
 
+}
+
+@media (max-width:505px)  {
+  .status-1-right h3, .location,.major {
+    text-align: center;
+  }
 }
 
 .curtin{
@@ -560,7 +577,17 @@ img{
 
 @media(max-width:575px) {
     #values{
-      display: none;
+      width:95vw;
+      padding-right: 10%;
+    }
+
+    .review-item{
+      text-align: center;
+      padding-right:6rem;
+    }
+
+    .carousel-indicators{
+      margin-left:20vw;
     }
 }
 

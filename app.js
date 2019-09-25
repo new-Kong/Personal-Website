@@ -18,24 +18,29 @@ $("#tab-1").click(function(){
 //open new window - progrees part
 
 function openWin_P1() {
-  window.open("https://github.com/new-Kong/TinDog.git");
+  window.open("https://new-kong.github.io/TinDog/");
 }
 
 function openWin_P3() {
-  window.open("https://github.com/new-Kong/myTunes.git");
+  window.open("https://new-kong.github.io/myTunes-Clone/");
 }
 
 
 function openWin_P4() {
-  window.open("https://github.com/new-Kong/Nexflix-Clone.git");
+  window.open("https://new-kong.github.io/Previous-Version-Netflix-Clone/");
 }
 
 function openWin_P5() {
-  window.open("https://github.com/new-Kong/Food-Monster.git");
+  window.open("https://new-kong.github.io/Food-Monster/");
 }
 
 function openWin_P6() {
   window.open("https://github.com/new-Kong/Personal-Website.git");
+}
+
+//open new window - Linkedin
+function openWin_L1() {
+  window.open("https://my.linkedin.com/in/wai-hoo-kong-14a119174?trk=profile-badge");
 }
 
 
@@ -55,6 +60,11 @@ $(".parent-container").magnificPopup({
 $(".progress-right").magnificPopup({
   delegate:"a",
   type:"image",
+
+  gallery:{
+    enabled:true
+  }
+
 });
 
 
