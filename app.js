@@ -39,6 +39,12 @@ function openWin_L1() {
   window.open("https://my.linkedin.com/in/wai-hoo-kong-14a119174?trk=profile-badge");
 }
 
+//open backend
+
+function openWin_B1(){
+  window.open("https://new-kong.github.io/SignUp-Register-Auth/");
+}
+
 
 // magnific pop-up previous art
 
