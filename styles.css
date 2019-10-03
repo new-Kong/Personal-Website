@@ -271,6 +271,11 @@ img{
 /* end of tabs */
 
 /* progress */
+ .icon{
+   margin-top: 5px;
+  padding-right:5px
+}
+
 .attempt-4-6{
   display:none;
 }
@@ -306,6 +311,10 @@ img{
   margin-bottom: 2rem;
   background-color: #851e3e;
   height:auto;
+}
+
+.progress .progress-left-bottomContent{
+  margin-bottom: 2rem;
 }
 
 .progress .progress-left-bottomContent .tutorials-link{
@@ -361,7 +370,6 @@ img{
 .progress-left-bottomContent .lesson{
   font-size: 1.1rem;
   line-height: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .progress img{
@@ -369,6 +377,8 @@ img{
   margin-left: 5%;
   height:70vh;
   width:80%;
+  object-fit:cover;
+  overflow:hidden;
 }
 
 .progress img:hover{
