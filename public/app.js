@@ -43,7 +43,7 @@ function openWin_L1() {
 //open backend
 
 function openWin_B1(){
-  window.open("https://new-kong.github.io/Auth/");
+  window.open("https://form-auth.herokuapp.com/");
 }
 
 
